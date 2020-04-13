@@ -202,16 +202,14 @@ footer li a:hover {
     body {
         padding: 0 25px;
     }
+    header h1 {
+        font-size: 1.5em;
+    }
     footer ul {
         flex-direction: column;
         padding: 0;
     }
     footer ul li {
         margin-bottom: 10px;
-    }
-}
-@media (max-width: 320px) {
-    header h1 {
-        font-size: 1.5em;
     }
 }
