@@ -183,8 +183,35 @@ footer li a:hover {
     #g-nav {
         flex-direction: column;
     }
+    #g-nav-logo {
+        margin: 0 auto;
+    }
+    #g-nav-links {
+        margin-top: 25px;
+    }
     #g-nav-links li {
         display: block;
-        margin: 0 auto;
+        text-align: center;
+    }
+    #featured-products {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+@media (max-width: 425px) {
+    body {
+        padding: 0 25px;
+    }
+    footer ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    footer ul li {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 320px) {
+    header h1 {
+        font-size: 1.5em;
     }
 }
