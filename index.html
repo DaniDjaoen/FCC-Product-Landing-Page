@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 <body>
-    <header>
-        <nav id="g-nav">
+    <header id="header">
+        <nav id="nav-bar">
             <div id="g-nav-logo">
                 <a href="/">
-                    <img src="http://cdn.onlinewebfonts.com/svg/img_82184.png" alt="Mi Logo">
+                    <img id="header-img" src="http://cdn.onlinewebfonts.com/svg/img_82184.png" alt="Mi Logo">
                 </a>
             </div>
             <div id="g-nav-links">
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#featured">Featured</a></li>
-                    <li><a href="#subscribe">Subscribe</a></li>
-                    <li><a href="#showcase">Showcase</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#featured">Featured</a></li>
+                    <li><a class="nav-link" href="#subscribe">Subscribe</a></li>
+                    <li><a class="nav-link" href="#showcase">Showcase</a></li>
                 </ul>
             </div>
         </nav>
@@ -105,10 +105,10 @@
                 <hr>
             </div>
             <div>
-                <form id="subscribe-form" action="nowhere.html">
-                    <label for="email-list">Enter your email address to keep up with the lastest products of Xiaomi.</label>
-                    <input type="email" name="email" id="email-list" required placeholder="example@domain.com">
-                    <input type="submit" value="Subscribe">
+                <form id="form" action="nowhere.html">
+                    <label for="email">Enter your email address to keep up with the lastest products of Xiaomi.</label>
+                    <input type="email" name="email" id="email" required placeholder="example@domain.com">
+                    <input type="submit" id="submit" value="Subscribe">
                 </form>
             </div>
         </div>
@@ -118,7 +118,7 @@
                 <hr>
             </div>
             <div id="showcase-video">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/U3gbO_0-AAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="video" width="100%" height="100%" src="https://www.youtube.com/embed/U3gbO_0-AAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </main>
@@ -136,6 +136,9 @@
             </div>
         </div>
     </footer>
+    <!-- FCC Page Test Script
+        ------------------------------------------------------------------------------------
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    -->
 </body>
 </html>
