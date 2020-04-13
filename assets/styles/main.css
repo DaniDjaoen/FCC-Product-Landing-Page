@@ -170,3 +170,21 @@ footer li a:hover {
 #website-creator a:hover {
     color: rgba(255, 102, 0, 0.9);
 }
+@media (max-width: 768px) {
+    #featured-products {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+    #subscribe-form {
+        width: 100%;
+    }
+}
+@media (max-width: 725px) {
+    #g-nav {
+        flex-direction: column;
+    }
+    #g-nav-links li {
+        display: block;
+        margin: 0 auto;
+    }
+}
