@@ -119,6 +119,9 @@ img {
 #showcase {
     background-color: rgb(255, 255, 255);
 }
+/* Code to make Iframe screensize responsive
+----------------------------------------------
+*/
 #showcase-video {
     position: relative;
     padding-bottom: 56.25%;
@@ -133,6 +136,8 @@ img {
 footer {
     background-color: rgb(0, 0, 0, 0.95);
     text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-bottom: 50px;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
