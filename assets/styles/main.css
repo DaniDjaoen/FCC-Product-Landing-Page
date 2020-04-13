@@ -180,6 +180,9 @@ footer li a:hover {
     }
 }
 @media (max-width: 725px) {
+    body {
+        padding: 0 25px;
+    }
     #g-nav {
         flex-direction: column;
     }
@@ -197,19 +200,15 @@ footer li a:hover {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
-}
-@media (max-width: 425px) {
-    body {
-        padding: 0 25px;
-    }
-    header h1 {
-        font-size: 1.5em;
-    }
+    
     footer ul {
         flex-direction: column;
         padding: 0;
     }
     footer ul li {
         margin-bottom: 10px;
+    }
+    header h1 {
+        font-size: 1.5em;
     }
 }
