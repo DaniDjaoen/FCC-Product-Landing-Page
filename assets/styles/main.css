@@ -1,6 +1,37 @@
+body {
+    padding: 0 100px;
+    background-image: url("https://wallpapersite.com/images/wallpapers/xiaomi-mi-8-1920x1080-hd-4k-8k-14135.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 img {
     width: 100%;
 }
-nav {
-    width: 100vw;
+header #g-nav {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #FF6700;
+    justify-content: space-between;
+}
+header #g-nav-logo {
+    max-width: 65px;   
+}
+header #g-nav-links {
+    
+}
+header #g-nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header #g-nav-links li {
+    display: inline-block;
+    padding: 0 10px;
+}
+header #g-nav-links a {
+    color: white;
+    font-size: 1.1em;
 }
